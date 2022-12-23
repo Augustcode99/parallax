@@ -10,13 +10,34 @@ body {
   font-family: sans-serif;
 }
 
+.page {
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+  display: grid;
+  align-items: center;
+  justify-content: center;
+  opacity: 0.95;
+}
 .page1 {
+  background-image: url("./images/journey.jpg");
+  height: 100vh;
 }
 .page2 {
+  background-image: url("./images/mountains.jpg");
+  height: 90vh;
 }
 .page3 {
+  background-image: url("./images/neuschwanstein.jpg");
+  height: 90vh;
 }
 .page4 {
+  background-image: url("./images/island.jpg");
+  height: 90vh;
+}
+.page5 {
+  background-image: url("./images/camera.jpg");
+  height: 90vh;
 }
 .banner {
 }
@@ -31,14 +52,21 @@ body {
 .banner5 {
 }
 
-p {
-  color: red;
+.page p {
+  line-height: 2;
+  font-size: 4.5rem;
+  color: rgb(125, 0, 166);
+  padding: 2.5rem;
+  outline: 0.65rem inset greenyellow;
+  outline-offset: 1rem;
 }
 
 .banner p {
-  color: yellow;
+  font-size: 1.2rem;
+  color: rgb(0, 113, 131);
 }
 
 .banner h1 {
-  color: yellow;
+  font-size: 3rem;
+  color: rgb(52, 120, 0);
 }
