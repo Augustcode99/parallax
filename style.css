@@ -7,7 +7,7 @@ body {
   width: 100%;
   min-height: 100vh;
   text-align: center;
-  font-family: sans-serif;
+  font-family: cursive;
 }
 
 .page {
@@ -17,56 +17,93 @@ body {
   display: grid;
   align-items: center;
   justify-content: center;
-  opacity: 0.95;
+  opacity: 0.93;
 }
 .page1 {
   background-image: url("./images/journey.jpg");
   height: 100vh;
 }
 .page2 {
-  background-image: url("./images/mountains.jpg");
-  height: 90vh;
+  background-image: url("./images/colosseum.jpg");
+  height: 85vh;
 }
 .page3 {
   background-image: url("./images/neuschwanstein.jpg");
   height: 90vh;
 }
 .page4 {
-  background-image: url("./images/island.jpg");
+  background-image: url("./images/china.jpg");
   height: 90vh;
 }
 .page5 {
-  background-image: url("./images/camera.jpg");
+  background-image: url("./images/woman.jpg");
   height: 90vh;
 }
 .banner {
+  padding: 3rem;
+  background: linear-gradient(
+    0deg,
+    rgb(0, 221, 255) 0%,
+    rgb(255, 255, 255) 100%
+  );
 }
 .banner1 {
+  background: linear-gradient(
+    0deg,
+    rgb(0, 221, 255) 0%,
+    rgb(255, 255, 255) 100%
+  );
 }
 .banner2 {
+  background: linear-gradient(
+    0deg,
+    rgba(147, 175, 144, 0.7) 20%,
+    rgba(252, 178, 129, 0.7) 100%
+  );
 }
 .banner3 {
+  background: linear-gradient(
+    0deg,
+    rgba(255, 179, 0, 0.7) 20%,
+    rgba(252, 178, 129, 0.7) 100%
+  );
 }
 .banner4 {
+  background: linear-gradient(
+    0deg,
+    rgba(147, 175, 144, 0.7) 20%,
+    rgba(252, 178, 129, 0.7) 100%
+  );
 }
 .banner5 {
+  background: linear-gradient(
+    0deg,
+    rgb(0, 221, 255) 0%,
+    rgb(189, 253, 251) 100%
+  );
 }
 
 .page p {
   line-height: 2;
   font-size: 4.5rem;
-  color: rgb(125, 0, 166);
-  padding: 2.5rem;
-  outline: 0.65rem inset greenyellow;
-  outline-offset: 1rem;
+  color: rgb(255, 255, 255);
+  background-color: rgb(0, 187, 190);
+  padding: 2.3rem;
+  outline: 0.9rem outset rgb(255, 166, 0);
+  outline-offset: 1.45rem;
+  border-top-left-radius: 6rem;
+  border-bottom-right-radius: 6rem;
+  opacity: 1;
+  outline-style: ;
 }
 
 .banner p {
+  margin-top: 1.5rem;
   font-size: 1.2rem;
-  color: rgb(0, 113, 131);
+  color: rgb(0, 0, 0);
 }
 
 .banner h1 {
   font-size: 3rem;
-  color: rgb(52, 120, 0);
+  color: rgb(24, 24, 24);
 }
