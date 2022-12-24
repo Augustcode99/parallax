@@ -3,4 +3,4 @@ https://augustcode99.github.io/parallax-travel-site/
 
 Or you can view a gif of the project below :)
 
-![](images/#)
+![](images/dreamawaygif.gif)

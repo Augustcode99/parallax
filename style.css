@@ -76,6 +76,7 @@ body {
   );
 }
 .banner5 {
+  padding: 3rem;
   background: linear-gradient(
     0deg,
     rgba(161, 231, 198, 0.904) 0%,
